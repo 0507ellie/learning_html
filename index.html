@@ -1,11 +1,138 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>HTML Tutorial</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77AADD 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        section#showcase {
+            min-height: 400px;
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding-top: 100px;
+        }
+        section#showcase h1 {
+            margin-top: 0;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        section#showcase p {
+            font-size: 20px;
+        }
+        section#resume, section#projects, section#profile {
+            padding: 20px;
+            background: #fff;
+            margin: 20px 0;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Your Name</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-The content of the document......
+    <section id="showcase">
+        <div class="container">
+            <h1>Welcome to My Personal Web Page</h1>
+            <p>Discover my work, skills, and experience.</p>
+        </div>
+    </section>
 
+    <section id="profile" class="container">
+        <h2>Profile</h2>
+        <p>Your brief bio goes here. Mention your background, interests, and what you are passionate about.</p>
+    </section>
+
+    <section id="resume" class="container">
+        <h2>Resume</h2>
+        <h3>Experience</h3>
+        <ul>
+            <li><strong>Job Title 1</strong> - Company 1 (Year - Year)</li>
+            <p>Describe your responsibilities and achievements in this role.</p>
+            <li><strong>Job Title 2</strong> - Company 2 (Year - Year)</li>
+            <p>Describe your responsibilities and achievements in this role.</p>
+        </ul>
+        <h3>Education</h3>
+        <ul>
+            <li><strong>Degree</strong> - Institution (Year - Year)</li>
+            <p>Describe your focus of study and notable achievements.</p>
+        </ul>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Project 1</strong></li>
+            <p>Brief description of project 1. What was it about? What did you achieve?</p>
+            <li><strong>Project 2</strong></li>
+            <p>Brief description of project 2. What was it about? What did you achieve?</p>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Your Name &copy; 2024</p>
+    </footer>
 </body>
 </html>
